@@ -3,32 +3,35 @@ import database from "../database.json";
 
 export default function Project() {
   return (
-    <section id="projects" className="w-full px-6 py-24 lg:px-16 lg:py-28">
-      <h2 className="text-4xl lg:text-5xl text-primary text-center font-bold mb-10">
-        My Personal Projects
+    <section
+      id="projects"
+      className="w-full bg-dark dark:bg-light text-primary dark:text-secondary px-6 py-24 md:px-16 md:py-28"
+    >
+      <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold mb-5">
+        My Projects
       </h2>
-      <p className="text-base lg:text-lg text-dark dark:text-light text-center font-normal mb-10">
-        These are some personal projects I made using my usual tech stack.
+      <p className="text-base md:text-lg lg:text-xl text-center font-medium mb-10">
+        These are some of the projects I developed:
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-3 lg:gap-x-6 text-light dark:text-dark">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
         {database.projects.map((project) => (
           <div
             key={project.id}
-            className="rounded-md shadow-md p-3 lg:p-6 bg-dark dark:bg-light text-light dark:text-dark min-h-48 lg:min-h-60"
+            className="rounded-md shadow-md p-3 md:p-6 bg-light dark:bg-dark text-secondary dark:text-primary min-h-48 md:min-h-60"
           >
             <img
               src={project.image}
               alt={project.title}
-              className="w-full mb-3 lg:mb-4 rounded-md shadow-md"
+              className="w-full mb-2 md:mb-4 rounded-md shadow-md"
             />
-            <h3 className="text-base font-semibold mb-3 lg:mb-4">
+            <h3 className="text-base md:text-lg font-medium mb-2 md:mb-4">
               {project.title}
             </h3>
-            <p className="text-sm font-normal mb-3 lg:mb-4">
+            <p className="text-sm md:text-base font-light mb-2 md:mb-4">
               {project.description}
             </p>
-            <div className="flex justify-end items-center gap-x-2">
-              <FaGithub className="text-lg lg:text-xl" />
+            <div className="flex justify-end items-center gap-2">
+              <FaGithub className="text-lg md:text-xl" />
               <a href={project.github} target="_blank">
                 Go to GitHub
               </a>

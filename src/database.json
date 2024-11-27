@@ -1,34 +1,44 @@
 {
-  "home": {
-    "name": "Alfonso Lai",
-    "job": "A Freelance Full Stack Web Developer",
-    "avatar": "images/avatar.jpg",
-    "quote": "If you try, you have a 50% chance of success and 50% chance of failure. But if you don't try, you only have a 100% chance of failure."
-  },
   "about": {
-    "description": "Fresh graduate student from Informatics Engineering study program with GPA 3.89 out of 4.00. Have internship experience as a Web Developer at PT Digital Otoma Solusi for 4 months using Laravel and Vue.js frameworks to develop Data Center Infrastructure Management application."
+    "avatar": "images/avatar.jpg",
+    "name": "Alfonso Lai",
+    "description": "I'm a fresh graduate student from Informatics Engineering study program with GPA 3.89 out of 4.00. Have internship experience as a Web Developer at PT Digital Otoma Solusi for 4 months using Laravel and Vue.js frameworks to develop Data Center Infrastructure Management application."
   },
   "projects": [
     {
       "id": 1,
       "title": "Web-Based Project Management Application",
-      "description": "This application is built using Tailwind CSS, Alpine.js, Laravel & Livewire frameworks (TALL Stack).",
+      "description": "This application was developed using Tailwind CSS, Alpine.js, Laravel & Livewire frameworks (TALL Stack).",
       "image": "images/projects/project-1.png",
       "github": "https://github.com/Alfon5000/skripsi-proman"
     },
     {
       "id": 2,
       "title": "Web-Based Blog Application",
-      "description": "This application is built using Vue.js 3 framework, Start Bootstrap template and Firebase.",
+      "description": "This application was developed using Vue.js framework, Start Bootstrap template and Firebase.",
       "image": "images/projects/project-2.png",
       "github": "https://github.com/Alfon5000/portfolio-blog-app"
     },
     {
       "id": 3,
       "title": "Web-Based Online Donation Application",
-      "description": "This application is built using Laravel framework, Tailwind CSS framework and Payment Gateway Midtrans.",
+      "description": "This application was developed using Laravel framework, Tailwind CSS framework and Payment Gateway Midtrans.",
       "image": "images/projects/project-3.png",
       "github": "https://github.com/Alfon5000/portfolio-online-donation-app"
+    },
+    {
+      "id": 4,
+      "title": "RESTful API for Blog Application",
+      "description": "This RESTful API was developed using Laravel framework.",
+      "image": "images/projects/project-4.png",
+      "github": "https://github.com/Alfon5000/portfolio-blog-api"
+    },
+    {
+      "id": 5,
+      "title": "Web-Based Bill Splitter Application",
+      "description": "This application was developed using React.js and Tailwind CSS.",
+      "image": "images/projects/project-5.png",
+      "github": "https://github.com/Alfon5000/portfolio-bill-splitter"
     }
   ]
 }

@@ -1,24 +1,17 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Divider from "./components/Divider";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Skill from "./components/Skill";
 import Project from "./components/Project";
-import Stack from "./components/Stack";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <div className="w-full bg-light dark:bg-dark text-dark dark:text-light">
       <Navbar />
-      <Home />
-      <Divider />
       <About />
-      <Divider />
-      <Stack />
-      <Divider />
+      <Skill />
       <Project />
-      <Divider />
       <Contact />
       <Footer />
     </div>
